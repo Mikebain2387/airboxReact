@@ -1,6 +1,8 @@
 import React from "react"
 import gears from '../images/gears-removebg-preview (1).png'
 import domain from '../images/domain-removebg-preview.png'
+import cloud from '../images/cloud-removebg-preview.png'
+import phone from '../images/phone-removebg-preview.png'
 function Body(){
  return
 }
@@ -22,16 +24,16 @@ const boxData = [
   info:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque."
  },
  {
-  image:
-  title:
-  subtitle:
-  info:  
+  image: cloud,
+  title: "FTP",
+  subtitle: "Service",
+  info:  " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque."
  },
  {
-  image:
-  title:
-  subtitle:
-  info:  
+  image: phone,
+  title: "Direct",
+  subtitle: "Support",
+  info:  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque."
  }
 ]
 
