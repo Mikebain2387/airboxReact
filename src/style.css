@@ -1,0 +1,216 @@
+
+.nav_bar a{
+ text-decoration: none;
+ color: rgb(92, 90, 111);
+ font-size: 12px;
+}
+
+.nav-bar a{
+ font-size: 11px;
+}
+
+.nav_bar{
+ border-bottom: 1px solid rgba(64, 61, 82, 0.582);
+
+}
+
+@media (min-width: 768px){
+  .nav-bar a{
+    font-size: 17px;
+   
+  }
+}
+
+
+
+.nav_bar, .section-1, .section-4{
+ background-color: rgb(38, 35, 54);
+ color: rgb(255,255,255);
+}
+
+
+
+
+
+.section-1-button{
+ background-color: rgb(92, 90, 111);
+ color: rgb(255,255,255);
+box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.148);
+border-radius: 5px;
+ 
+}
+
+.section-1-content p{
+ color: rgb(92, 90, 111);
+ font-size: 11px;
+}
+
+.sect-2{
+ background-color: rgb(242, 155, 102);
+}
+
+.section2-box h3{
+  color: ivory;
+  font-weight: bold;
+  
+}
+
+.section2-box h4{
+  color: rgb(225, 206, 198);
+}
+
+.section2-box p{
+  margin: 0 20% 25px 20%;
+}
+
+.s2-image{
+ position: relative;
+margin: auto;
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ background-color: rgb(93,91,114);
+}
+
+#gears,  #cloud {
+ height: 75px;
+ width: auto;
+ margin-top: 10%;
+ position: relative;
+}
+
+#domain, #phone  {
+ height: 100px;
+ width: auto;
+margin: auto;
+ position: relative;
+}
+
+.sec-3{
+
+ background-color: rgb(232,232,234);
+ color: black;
+
+ }
+
+ 
+
+ .sec-3 h2{
+ 
+  color: white;
+  background-color: rgb(108, 111, 137);
+  border-bottom: 3px solid #e8e8ea;
+  padding: 15px 5px 15px 5px;
+  border-radius: 5px;
+  margin-top: 5% ;
+  margin-bottom: 1%;
+ }
+
+ .sec-3 h3{
+  color: white;
+ background-color: rgb(108, 111, 137);
+  padding:  30px 0 30px 0;
+  margin-bottom: 0%;
+  font-size: 25px;
+  
+  
+ }
+
+ .triangle{
+  position: relative;
+   width: 0; 
+   height: 0; 
+   border-left: 22px solid transparent;
+   border-right: 22px solid transparent;
+   border-top: 22px solid  rgb(108, 111, 137);
+  margin: auto;
+ }
+
+ 
+ .cont-block{
+  margin-top: -6%;
+ }
+ .block-1{
+text-align: center;
+border-left: 2px solid rgba(128, 128, 128, 0.386) ;
+border-right: 2px solid rgba(128, 128, 128, 0.386) ;
+border-bottom:2px solid rgba(128, 128, 128, 0.386);
+padding: 20px 0 20px 0;
+ }
+
+ .block-1, .block-3{
+  background-color: rgb(255,255,255);
+ }
+
+ .block-2, .block-3, .block-4{
+  text-align: center;
+  border-left: 2px solid rgba(128, 128, 128, 0.386);
+  border-right: 2px solid rgba(128, 128, 128, 0.386);
+  border-bottom: 2px solid rgba(128, 128, 128, 0.386);
+  padding: 17px 50px 12px 50px;
+  
+ }
+
+ .block-2, .block-4{
+  background-color: rgb(245, 240, 240);
+ }
+
+ .block-5{
+  text-align: center;
+  border-left: 2px solid rgba(128, 128, 128, 0.386);
+  border-right: 2px solid rgba(128, 128, 128, 0.386);
+  border-bottom:2px solid rgba(128, 128, 128, 0.386) ;
+  padding: 5px 0 5px 0;
+  background-color: rgb(255,255,255);
+ }
+
+ 
+
+
+
+ .sec-3 button{
+  background-color: orange;
+  padding: 5px 50px 5px 50px;
+  border-radius: 5px;
+  border: 0px solid orange;
+  font-size: 25px;
+  color: ivory;
+ }
+
+ 
+ h3 span{
+  color: rgb(255, 168, 6);
+ }
+
+ .section-4{
+  background-color: rgb(38, 35, 54);
+  
+ }
+
+ .section-4 ul li::marker{
+  color: rgb(255, 165, 0);
+ }
+
+ 
+ 
+ 
+ .section-4 button{
+  background-color: rgb(239,132, 79);
+  color: ivory;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px 5px rgba(236, 233, 233, 0.265);
+ }
+
+ .section-5{
+  background-color: rgb(50, 47, 64);
+ 
+ 
+ }
+ 
+ .section-6{
+ 
+  background-color: rgb(26, 25, 33);
+  
+  
+ }
