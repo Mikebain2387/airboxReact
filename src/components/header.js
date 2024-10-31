@@ -39,9 +39,11 @@ return(
 
 function Hero(){
  return(
-  <div className="section-1 ">
+  <div className="section-1">
         <div className="row">
-          <div className="section-1-content text-center mt-2 mb-4">
+          <div className="section-1-content text-center d-flex align-items-center justify-content-center mt-2 mb-4">
+           <div className="col-6 text-center">
+
             <h2 className="fs-4">24/7 Real Person</h2>
             <h1 className="fs-1">Customer Support</h1>
             <h2 className="fs-4">For all our clients</h2>
@@ -57,6 +59,7 @@ function Hero(){
             <button className="text-center pb-1 section-1-button text-center">
               Try Now
             </button>
+           </div>
           </div>
         </div>
       </div>

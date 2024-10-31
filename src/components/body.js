@@ -4,16 +4,11 @@ import domain from '../images/domain-removebg-preview.png'
 import cloud from '../images/cloud-removebg-preview.png'
 import phone from '../images/phone-removebg-preview.png'
 
-
 function Body(){
  return(
-  
-
   <div className="sect-2  text-center pt-4 row ">
    {boxesInfo}
   </div>
-  
-  
  )
 }
 
@@ -48,7 +43,6 @@ const boxData = [
  }
 ]
 
-
 const boxesInfo = boxData.map(
  (currentItem) => {
   return <BoxItem 
@@ -57,8 +51,7 @@ const boxesInfo = boxData.map(
   main ={currentItem.title}
   sub = {currentItem.subtitle}
   text = {currentItem.info}
-  />
-  
+  /> 
  }
 )
 
@@ -69,8 +62,7 @@ function BoxItem(props){
             <div className="s2-image">
               
                <img id={props.id} src={props.pic} alt="" /> 
-              
-              
+               
             </div>
             <h3>{props.main}</h3>
             <h4>{props.sub}</h4>

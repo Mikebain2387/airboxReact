@@ -208,14 +208,14 @@ margin-top: -16px;
  
  }
   .section-6-social-icons {
-   margin-left: -104px;
+   margin-left: -110px;
    
    
  }
 
  
   #facebook, #twitter, #wifi, #google{
-   height: 50px;
+   height: 15px;
    width: auto;
    opacity: 25%;
    
@@ -235,8 +235,11 @@ margin-top: -16px;
    margin-top: 16px;
   } 
    
+  #facebook, #twitter, #wifi, #google{
+   height: 50px;
+   width: auto;
   }
-
+  }
  
  .section-6{
  
