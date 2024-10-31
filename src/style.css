@@ -136,6 +136,7 @@ border-left: 2px solid rgba(128, 128, 128, 0.386) ;
 border-right: 2px solid rgba(128, 128, 128, 0.386) ;
 border-bottom:2px solid rgba(128, 128, 128, 0.386);
 padding: 20px 0 20px 0;
+margin-top: -16px;
  }
 
  .block-1, .block-3{

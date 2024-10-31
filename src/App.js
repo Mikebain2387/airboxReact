@@ -3,6 +3,7 @@ import Header from './components/header'
 import Body from './components/body'
 import Footer from "./components/footer"
 import './style.css'
+import Hosting from "./components/hosting"
 
 
 function App(){
@@ -10,6 +11,7 @@ function App(){
   <div className="container">
 <Header/>
 <Body/>
+<Hosting/>
 <Footer/>
   </div>
  )
