@@ -208,6 +208,18 @@ margin-top: -16px;
  
  
  }
+
+ @media (min-width: 768px){
+  
+  #word {
+ margin-top: 10px;
+  } 
+  #open {
+   margin-top: 16px;
+  } 
+   
+  }
+
  
  .section-6{
  

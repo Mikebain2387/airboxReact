@@ -5,6 +5,7 @@ import Footer from "./components/footer"
 import './style.css'
 import Hosting from "./components/hosting"
 import Section4 from "./components/section4"
+import SectionFive from "./components/section5"
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
 <Body/>
 <Hosting/>
 <Section4/>
+<SectionFive/>
 <Footer/>
   </div>
  )

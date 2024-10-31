@@ -1,5 +1,8 @@
 import React from "react";
-
+import word from '../images/wordpress.png'
+import magento from '../images/magento.png'
+import openCart from '../images/opencart.png'
+import joomla from '../images/joomla.png'
 
 
 
@@ -23,12 +26,12 @@ const imageData = [
  {
   id: 'magento',
   image: magento
- }
+ },
 
  {
   id: 'open',
   image: openCart
- }
+ },
 
  {
   id: 'joomla',
@@ -46,6 +49,14 @@ const SectFiveInfo = imageData.map(
   
  }
 )
+
+function SectFiveItem(props){
+ return(
+  <div class="col-3 mt-lg-1">
+            <img id={props.id} className="img-fluid" src={props.pic} alt="" />
+          </div>
+ )
+}
 
 
 
