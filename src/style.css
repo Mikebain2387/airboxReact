@@ -206,8 +206,25 @@ margin-top: -16px;
  .section-5{
   background-color: rgb(50, 47, 64);
  
- 
  }
+  .section-6-social-icons {
+   margin-left: -104px;
+   
+   
+ }
+
+ 
+  #facebook, #twitter, #wifi, #google{
+   height: 50px;
+   width: auto;
+   opacity: 25%;
+   
+  }
+
+
+
+ 
+ 
 
  @media (min-width: 768px){
   
